@@ -37,9 +37,9 @@ def clean_data(raw_population_df, raw_cal_cf_df, raw_cal_intake_df):
     count_na_cal_intake_dropped = len(raw_cal_intake_df) - len(cal_intake_df)
     
     # print out the counter results
-    print(count_na_population_dropped, "number of rows dropped for population data")
-    print(count_na_cal_cf_dropped, "number of rows dropped for calorie cf data")
-    print(count_na_cal_intake_dropped, "number of rows dropped for calorie intake data")
+    #print(count_na_population_dropped, "number of rows dropped for population data")
+    #print(count_na_cal_cf_dropped, "number of rows dropped for calorie cf data")
+    #print(count_na_cal_intake_dropped, "number of rows dropped for calorie intake data")
     
     return population_df, cal_cf_df, cal_intake_df
 
@@ -70,11 +70,11 @@ def calculate_cal_cf(cal_cf_df):
     group_cal_cf = cal_cf_df.groupby(["Food Group"])["Total"].mean()
     
     # plot the series
-    group_cal_cf.plot.bar()
-    plt.title("Food Group Counts")
-    plt.xlabel("Food Group")
-    plt.ylabel("Avg Counts")
-    plt.show()
+    #group_cal_cf.plot.bar()
+    #plt.title("Food Group Counts")
+    #plt.xlabel("Food Group")
+    #plt.ylabel("Avg Counts")
+    #plt.show()
 
     return cal_cf_df
 
@@ -150,7 +150,7 @@ def main():
         else:
             m1_results[column+"_CF"] = population_df[column] * total_df[column].iloc[0]
     m1_results["Total"] = m1_results.sum(axis=1, numeric_only=True)
-    print(m1_results)
+    #print(m1_results)
 
     # method 2
     m2_results = pd.DataFrame({})
@@ -161,7 +161,7 @@ def main():
             calculate_df_pd, args=(total_df, demo)
         )
     m2_results["Total"] = m2_results.sum(axis=1, numeric_only=True)
-    print(m2_results)
+    #print(m2_results)
 
     # method 3 - mul function
     m3_results = pd.DataFrame({})
@@ -170,6 +170,6 @@ def main():
     for key in multipliers:
         multipliers[key] = multipliers[key]["Total"]
     m3_results["Total"] = population_df.iloc[:,1:].mul(multipliers).sum(axis=1)
-    print(m3_results)
+    #print(m3_results)
 
 main()
