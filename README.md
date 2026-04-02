@@ -11,6 +11,6 @@ The outcome of these tutorials:
 
 Just a few of my favorite maps output from these tutorials:
 
-<img width="504" height="414" alt="Screenshot 2026-04-02 at 12 47 52 PM" src="https://github.com/user-attachments/assets/7577707a-466e-4421-bc17-5f7c7c9ac5aa" />
+<img width="504" height="414" alt="Screenshot 2026-04-02 at 12 49 19 PM" src="https://github.com/user-attachments/assets/7fbe8c4e-38f3-4d40-9ca2-67669595c85d" />
 
-<img width="483" height="386" alt="Screenshot 2026-04-02 at 12 47 22 PM" src="https://github.com/user-attachments/assets/3418586b-4d42-4468-9c6f-a09543c531e8" />
+<img width="504" height="414" alt="Screenshot 2026-04-02 at 12 47 22 PM" src="https://github.com/user-attachments/assets/3418586b-4d42-4468-9c6f-a09543c531e8" />
