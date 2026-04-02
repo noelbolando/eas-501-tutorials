@@ -1,4 +1,4 @@
-# EAS 501 - Sustainable Urban Systems Tutorial Repo
+# Tutorials for EAS 501.074 - Sustainable Urban Systems
 
 <img width="641" height="480" alt="Screenshot 2026-04-02 at 12 44 55 PM" src="https://github.com/user-attachments/assets/5bff3f0a-d89a-421f-aa75-1864dca094ab" />
 
